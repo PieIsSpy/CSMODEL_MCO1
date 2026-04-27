@@ -49,15 +49,32 @@ This project focuses on the correlation between the provincial socioeconomic and
      - This may also be attributed to socio-economic factors rather than lower transmission rates. Limited hospital infrastructure and reduced access to diagnostic testing and impoverished areas likely led to a significant underreporting of cases.
 
 3. How did the number of confirmed cases change over time in the areas with most quarantine periods in relation to the implementation of different quarantine levels?
-- Stricter quarantine levels (ECQ/MECQ) coincide with the absolute peaks of the cases for those specific time periods, acting as a reactive "ceiling" that forced the numbers to eventually die down after a short lag, while more relaxed levels (GCQ/MGCQ) often allowed for the build-up of subsequent cases.
+   - Stricter quarantine levels (ECQ/MECQ) coincide with the absolute peaks of the cases for those specific time periods, acting as a reactive "ceiling" that forced the numbers to eventually die down after a short lag, while more relaxed levels (GCQ/MGCQ) often allowed for the build-up of subsequent cases.
 
 ## Prerequisites
-x
+To run the python notebook in Google Collab, you must put these folders into your Google Drive:
+   - `cases` - make a folder for this first, then download all the data drops [here](https://data.gov.ph/index/public/dataset/COVID-19%20DOH%20Data%20Drop%20%28November%2026,%202022%29/vuo95enr-tttu-24cu-3x70-agzd8kcvhkop) and put it in the `cases` folder
+   - `quarantine_timeline` - downloadable in the repository, drag and drop it into your Google Drive
+   - `socioeconomics and population` - downloadable in the repository, drag and drop it into your Google Drive
 
-## Built With
-- Google Collab
+## Tools Used
+   - Google Collab
 
 ## Authors
-
+   - [Byron Scott Ang](https://github.com/niloucode)
+   - [Karl Deejay Omandac](https://github.com/PieIsSpy)
+   - [Anne Camille Samonte](https://github.com/cam-coop)
+   - [Kimberly Wynelle Sotingco](https://github.com/Kwimbow)
+   - [John Lorens Tee](https://github.com/LorensTee)
 
 ## Acknowledgments
+  - DOH Covid-19 Data Drop from [data.gov.ph](https://data.gov.ph/index/public/dataset/COVID-19%20DOH%20Data%20Drop%20%28November%2026,%202022%29/vuo95enr-tttu-24cu-3x70-agzd8kcvhkop)
+  - Quarantine Timeline CSV from [https://www.officialgazette.gov.ph/](https://www.officialgazette.gov.ph/) and [https://pco.gov.ph/](https://pco.gov.ph/)
+  - Provincial Socioeconomic Rankings CSV from [Cities and Municipalities Competitiveness Index (Department of Trade and Industry)](https://cmci.dti.gov.ph/)
+  - Provincial Population CSV from [Philippine Statistics Authority](https://psa.gov.ph/content/2020-census-population-and-housing-2020-cph-population-counts-declared-official-president)
+
+## AI Declaration
+- During the preparation of this work the author(s) used gemini for the following purposes:
+  - Webscrapper for gathering data for provincial rankings and city-wide scores from https://cmci.dti.gov.ph/
+
+- After using this tool/service, the authors(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.

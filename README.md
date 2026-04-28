@@ -1,5 +1,5 @@
 # CSMODEL_MCO1
-This project focuses on the correlation between the provincial socioeconomic and demographic profiles and the time-lagged response and effectiveness of COVID-19 quarantine classifications. It deals with Data Preprocessing and Exploratory Data Analysis of the datasets aquired.
+This project focuses on the correlation between the provincial socioeconomic and demographic profiles and the time-lagged response and effectiveness of COVID-19 quarantine classifications. This repository deals with Data Preprocessing and Exploratory Data Analysis of the datasets aquired.
 
 ## Dataset Explanations
 ### DOH Covid Data Drop Dataset
